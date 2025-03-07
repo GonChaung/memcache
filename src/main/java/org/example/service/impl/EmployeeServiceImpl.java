@@ -172,7 +172,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
 
     @Override
-//    @Cacheable(value = "employees", key = "'top-paid'")
+    @Cacheable(value = "employees", key = "'top-paid'")
     public List<TopPaidEmployeeDto> getTop10HighestPaidEmployees() {
         System.out.println("Employee Fetching.....");
         List<Object[]> results = employeeRepository.findTop10HighestPaidEmployeesWithDepartment();
