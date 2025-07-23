@@ -36,9 +36,7 @@ Displays top 10 current employees with salaries higher than the average using a 
 
 🌐 Demo Access
 
-  Landing Page: Displays top 10 high-salary employees
-
-  About Page: Shows team member information
+  Landing Page: Displays top 10 high-salary employees in less than 3 seconds
 
   API Endpoints: Serverless CRUD via AWS Lambda + API Gateway
 
